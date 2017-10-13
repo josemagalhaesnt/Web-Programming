@@ -1,2 +1,8 @@
 # Web-Programming
-This repository is used with learning/practicing purposes only
+Esse é repositório tem fins de aprendizado em linguagens de Programação WEB
+
+## Linguagens de Programação usadas
+
+[HTML/CSS](/HTML-CSS)
+[Javascript](/Javascript)
+[PHP](/PHP)

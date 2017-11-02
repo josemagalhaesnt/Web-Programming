@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Introdução ao HTML5</title>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <form>
+        <!-- Associar Label com os elementos (boa prática!!!!) -->
+        <!-- Nome -->
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required autofocus>
+        <br><br>
+        <!-- Novos inputs e atributos do HTML5 -->
+
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ex: seuemail@provedor.com" required autofocus>
+        <br><br>
+        <!-- Número -->
+        <label for="numero">Número</label>
+        <input type="number" id="numero" min="5" max="10" step="2">
+        <br><br>
+        <!-- URL -->
+        <label for="url">URL</label>
+        <input type="url" id="url" placeholder="Ex: http://www.seusite.com">
+        <br><br>
+        <!-- Pesquisa -->
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa" placeholder="Digite algo">
+        <br><br>
+        <!-- Range -->
+        <label for="range">Filtro de Idade</label>
+        <input type="range" id="range" min="18" max="65">
+        <br><br>
+        <!-- Data -->
+        <label for="data">Data de Nascimento</label>
+        <input type="date" id="data">
+        <br><br>
+        <!-- Cor -->
+        <label for="cor">Sua cor favorita</label>
+        <input type="color" id="cor">
+        <br><br>
+        <!-- Enviar-->
+        <input type="submit" value="enviar">
+
+    </form>
+
+</body>
+
+</html>

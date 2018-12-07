@@ -17,6 +17,7 @@ body {
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: 'Helvetica','Arial', sans-serif;
+	overflow-x: hidden;
 }
 
 /************************* Navbar *************************/
@@ -47,12 +48,13 @@ nav.nav-trans {
 	margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
 	color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, .nav a:hover {
 	color: #9bf0e1;
+	background: transparent;
 }
 
 /************************* Header Cover *************************/
@@ -109,9 +111,28 @@ nav.nav-trans {
 	padding: 10px 0;
 }
 
+#recursos {
+	padding: 20px 0;
+	color: white;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+/**************************** Footer ****************************/
+footer {
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+
 /**************************** Tipografia ****************************/
 h1 {
-	font-size: 100px;
+	font-size: 64px;
 	font-weight: 900;
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
@@ -129,6 +150,16 @@ h3 {
 	letter-spacing: -0.04em;
 }
 
-#servicos h2, h3 {
+#servicos h2, #servicos h3 {
 	color: #7c25f8;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
 }

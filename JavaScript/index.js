@@ -1,4 +1,12 @@
-let a = 10;
-const b = "10";
+window.addEventListener('focus', event => {
+    console.log("focus");
+});
 
-console.log(a === b);
+// Calculadora
+/*function calc(x1, x2, op) {
+    return eval(`${x1} ${op} ${x2}`); 
+}
+
+let resultado = calc(1,2,"+");
+
+console.log(resultado);*/
